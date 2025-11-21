@@ -191,6 +191,25 @@
 			{
 				"inputs": [
 					{
+						"internalType": "address",
+						"name": "_author",
+						"type": "address"
+					}
+				],
+				"name": "getTotalLikes",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
 						"internalType": "uint256",
 						"name": "_i",
 						"type": "uint256"
@@ -356,11 +375,11 @@
 	},
 	"sources": {
 		"Twitter.sol": {
-			"keccak256": "0x00a88006ac3fed9b3e5c2244fe67ad00724f8cc5bc96a13e0dd13d0cb1d08bfd",
+			"keccak256": "0xf4d659da6995cec0af524892277cbcea0c6e381a3eaabf322ef695298e739cf5",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://b9d2da2c7f7309515f3d6632382c81852358a956c90c39fac5d7265566327265",
-				"dweb:/ipfs/QmRvK2deLs6GVcuxQVZtQyi72D2hetL86qsD29UR4LgEco"
+				"bzz-raw://15adfed966840e1376d32b310c56ea83b9e80f23cbd38a4dfefea24bd23227a6",
+				"dweb:/ipfs/QmeZDkCtYkz32AHDiMzKZzPwwm8zQAo7FAMppND9WfuWtz"
 			]
 		}
 	},

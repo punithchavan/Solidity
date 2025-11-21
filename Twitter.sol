@@ -76,5 +76,14 @@ contract Twitter{
     function getAllTweets(address _owner) public view returns (Tweet[] memory){
         return tweets[_owner];
     }
+
+    function getTotalLikes(address _author) external view returns(uint256){
+        uint256 totalLikes;
+        for(uint i=0;i<tweets[_author].length;i++){
+            totalLikes+=tweets[_author][i].likes;
+        }
+
+        return totalLikes;
+    }
 }
 
