@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "joinGame",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Inheritance.sol": "multiplayerGame"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Inheritance.sol": {
+			"keccak256": "0x1664e1f683fdc6b4243fd37db7387544f2f2a98318985d6b9269fef03cfa1bc1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d2c81e58de6237bd0c5925841495c05e93332a63e930f18551ddc56fec20de3a",
+				"dweb:/ipfs/QmeMc4A8ChNB3B6sCCe1DMBppWMyUrhLBd6LfmYDQwf32T"
+			]
+		}
+	},
+	"version": 1
+}
