@@ -9,47 +9,44 @@
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "_userContractAddress",
+						"name": "userAddress",
 						"type": "address"
-					}
-				],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
-				"inputs": [],
-				"name": "gameCount",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
+					},
 					{
 						"internalType": "string",
 						"name": "username",
 						"type": "string"
 					}
 				],
-				"name": "startGame",
+				"name": "createUser",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "userContract",
-				"outputs": [
+				"inputs": [
 					{
-						"internalType": "contract IUser",
+						"internalType": "address",
 						"name": "",
 						"type": "address"
+					}
+				],
+				"name": "players",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "playerAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "username",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "score",
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -69,7 +66,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"InteractionGame.sol": "Game"
+			"InteractionUser.sol": "User"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -83,12 +80,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"InteractionGame.sol": {
-			"keccak256": "0xc4dcb33060c9fbb23621975351985297f57ccc5fe9ed32404139fb7ac62153ec",
+		"InteractionUser.sol": {
+			"keccak256": "0x9e35cc10784c744ac4c29c263d9ab4095b4b28e94036ef7815ff645fc1bc090c",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://bfbf834bbd8b677522e397b8f3abdf0b2b8bceea63b7862aa7b77bfd54b35250",
-				"dweb:/ipfs/Qmd6E7uQt9Ly1HYFcg6WsoeKdMXYZEB8yXmwgsxV55z37j"
+				"bzz-raw://a4c52fd99cd26ad9477bb11b162bab6d2b586a3e412d5682a97932c251352fe7",
+				"dweb:/ipfs/QmTaVx1gvZfvReXosEf3j9iCJ4fSQf1Tqbp6QKFtSoewmV"
 			]
 		}
 	},
